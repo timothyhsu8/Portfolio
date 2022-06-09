@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { Box, Heading, Text, VStack } from "@chakra-ui/react";
+import './styles.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box>
+      <Box className="wrapper">
+        <header>
+          <img src="imgs/mountains.jpg" className="background"></img>
+          {/* <img src="imgs/catra.webp" className="foreground"></img> */}
+          <VStack spacing={4}>
+            <Heading size='3xl' color="white"> Timothy Hsu </Heading>
+            <Heading size="xl" color="white" fontWeight="thin"> Web Developer </Heading>
+          </VStack>
+        </header>
+        <Box p={3} bgColor="white" height='100vh'>
+          <Text>
+            
+          </Text>
+        </Box>
+      </Box>
+    </Box>
   );
 }
 

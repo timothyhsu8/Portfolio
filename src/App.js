@@ -26,7 +26,6 @@ function App() {
           </Center> */}
 
 
-          
           {/* Projects */}
           <SectionHeading text="Projects" length={250}/>
 
@@ -41,6 +40,7 @@ function App() {
               url="https://triviatree.herokuapp.com/"
               titleColor="red.700"
               tagColor="yellow.700"
+              imgs={["imgs/triviatree/platform.png", "imgs/triviatree/quiz.png", "imgs/triviatree/search.png", "imgs/triviatree/shop.png"]}
             />
 
             {/* Art Discover */}
@@ -53,6 +53,7 @@ function App() {
               url="https://art-discover.herokuapp.com/"
               titleColor="blue.600"
               tagColor="cyan.700"
+              imgs={["imgs/artdiscover/artists.png", "imgs/artdiscover/resources.png", "imgs/artdiscover/artist.png"]}
             />
 
             {/* Wavelength */}
@@ -65,6 +66,7 @@ function App() {
               url="https://art-discover.herokuapp.com/"
               titleColor="purple.600"
               tagColor="pink.700"
+              imgs={["imgs/wavelength/game.png", "imgs/wavelength/game2.png", "imgs/wavelength/home.png"]}
             />
 
             {/* Rage of the Sea */}
